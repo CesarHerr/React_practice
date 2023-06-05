@@ -6,13 +6,13 @@ import ControlledForm from "./Form";
 
 const TodoApp = () => {
   return (
-    <>
-      <Navbar />
-      <Modal />
-      <Header />
-      <TodosLogic />
-      <ControlledForm />
-    </>
+    <div className="wrapper">
+      <div className="todos">
+        <Header />
+        <TodosLogic />
+      </div>
+    </div>
   );
 };
 export default TodoApp;
+

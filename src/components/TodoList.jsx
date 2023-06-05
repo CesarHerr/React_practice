@@ -8,6 +8,7 @@ const TodosList = ({ todosProps, handleChange, delTodo }) => {
           key={todo.id} 
           itemProp={todo}           
           delTodo={delTodo}
+          handleChange={handleChange}
           />
       ))}
     </ul>
